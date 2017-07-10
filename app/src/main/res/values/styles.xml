@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="InOutColorsCircularProgressDrawableStylenew" parent="Material.Drawable.CircularProgress">
+        <item name="cpd_inAnimDuration">1000</item>
+        <item name="cpd_inStepPercent">0.5</item>
+        <item name="cpd_inStepColors">@array/progress_colors</item>
+        <item name="cpd_outAnimDuration">400</item>
+        <item name="cpd_strokeColors">@array/progress_colors</item>
+        <item name="cpd_maxSweepAngle">300</item>
+    </style>
+</resources>

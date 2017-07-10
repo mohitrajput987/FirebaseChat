@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="@string/welcome_to_life_our_way"
+        android:textColor="@color/accent"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/email"
+        android:textColor="@color/accent"
+        android:textSize="@dimen/form_heading_texts_size" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/gray_rounded_box"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/divider"
+        android:textSize="@dimen/form_fields_text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/form_fields_vertical_margin"
+        android:text="@string/password"
+        android:textColor="@color/accent"
+        android:textSize="@dimen/form_heading_texts_size" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/gray_rounded_box"
+        android:hint="@string/enter_your_password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/primary_text"
+        android:textColorHint="@color/divider"
+        android:textSize="@dimen/form_fields_text_size" />
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/cbShowPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="2dp"
+        android:text="@string/show_password"
+        android:textColor="@color/secondary_text"
+        android:textSize="@dimen/form_heading_texts_size"
+        app:buttonTint="@color/accent" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/form_fields_text_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/form_heading_texts_size"
+            android:text="@string/dont_have_an_account"
+            android:textColor="@color/secondary_text" />
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:padding="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="@dimen/form_fields_text_size"
+            android:textColor="@color/accent" />
+    </LinearLayout>
+</LinearLayout>
