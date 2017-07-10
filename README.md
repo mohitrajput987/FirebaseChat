@@ -16,11 +16,9 @@ Project contains following items/functionalities-
 ```
 
 ### Prerequisites
-```
 1. You need little bit knowledge about what is firebase.
-2. Setup a firebase project. You can read it from [here](https://firebase.google.com/docs/android/setup)
+2. Setup a firebase project. You can read it from [here](https://firebase.google.com/docs/android/setup/).
 3. Create a project in firebase and go to console. 
-```
 
 # License
 
