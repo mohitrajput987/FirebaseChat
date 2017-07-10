@@ -85,6 +85,12 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    @OnClick(R.id.tvForgotPassword)
+    void onForgotPasswordBtnClicked() {
+        Intent intent = new Intent(context, ForgotPasswordActivity.class);
+        startActivity(intent);
+    }
+
 
     private boolean areFieldsValid() {
         etEmail.setError(null);

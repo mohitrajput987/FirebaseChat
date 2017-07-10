@@ -18,6 +18,7 @@
     <string name="enter_valid_mobile_number">Enter a valid mobile number</string>
     <string name="role_message">You\'re all signed up, now to set up some accounts and you\'re ready to go! First of all do you receive funding for yourself, or are you a family member or carer or someone who does?</string>
     <string name="login">Login</string>
+    <string name="reset_password">Reset password</string>
     <string name="dont_have_an_account">Don\'t have an account?</string>
     <string name="enter_valid_email">Enter a valid email</string>
     <string name="enter_valid_password">Enter valid password</string>
@@ -31,6 +32,7 @@
     <string name="please_verify_your_email">Please verify your email to login</string>
     <string name="this_email_is_not_registered">This email is not registered</string>
     <string name="register">Register</string>
+    <string name="forgot_password">Forgot password?</string>
     <string name="i_receive_funding">I receive funding</string>
     <string name="family_member_receive_funding">A family member or friend receives funding</string>
     <string name="i_am_service_provider">I\'m a service provider</string>
@@ -75,4 +77,5 @@
     <string name="failed_to_send_verification_email">Failed to send verification email</string>
     <string name="failed_to_login_in">There is some problem in log in.</string>
     <string name="logging_out">Logging out</string>
+    <string name="we_need_email_for_password_reset">We need your email to send your instructions for password reset.</string>
 </resources>
