@@ -1,8 +1,8 @@
 # FirebaseChat
-The repository contains all the major functionalities of Firebase in Android.
+The repository contains all the major functionalities of Firebase in Android. The intention is to develop a good chat application using firebase.
 
 ## What you can learn from project
-Project contains following items/functionalities-
+Project contains following items/functionalities for now-
 ```
 1. Firebase initial setup
 2. Firebase user registration with email & password
@@ -14,6 +14,7 @@ Project contains following items/functionalities-
 8. Change password
 9. Delete account
 ```
+We're continuously developing more features and updating repo.
 
 ### Prerequisites
 1. You need little bit knowledge about what is firebase.
