@@ -3,6 +3,8 @@
     <string name="welcome_to_life_our_way">Welcome to Firebase Chat</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
     <string name="enter_your_email">Enter your email</string>
     <string name="enter_your_password">Enter your password</string>
     <string name="re_enter_email">Re-enter email</string>
@@ -24,6 +26,10 @@
     <string name="enter_valid_password">Enter valid password</string>
     <string name="show_password">Show password</string>
     <string name="logging_in">Logging in</string>
+    <string name="password_not_same">Confirm password is not same as new password</string>
+    <string name="password_updated_successfully">Password updated successfully</string>
+    <string name="failed_to_update_password">Failed to update password</string>
+    <string name="updating_passsword">Updating password</string>
     <string name="registering">Registering</string>
     <string name="logged_in_successfully">You have logged-in successfully</string>
     <string name="registered_successfully">You have registered successfully. Please check your email and verify it to login.</string>
@@ -51,6 +57,8 @@
     <string name="enter_caree_first_name">Enter caree\'s first name</string>
     <string name="enter_caree_last_name">Enter caree\'s last name</string>
     <string name="ok">OK</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_account">Delete Account</string>
     <string name="logout">Logout</string>
     <string name="session_expired_title">Session Expired</string>
     <string name="session_expired_message">Your session has been expired. Please login again to continue.</string>
@@ -74,8 +82,17 @@
     <string name="email_not_verified">Your email is not verified. Please check your email and verify it. In case you didn\'t receive any email, you can resend it.</string>
     <string name="resend">Resend</string>
     <string name="sending_verification_email">Sending verification email</string>
+    <string name="sending_reset_mail">Sending password reset mail</string>
     <string name="failed_to_send_verification_email">Failed to send verification email</string>
     <string name="failed_to_login_in">There is some problem in log in.</string>
     <string name="logging_out">Logging out</string>
     <string name="we_need_email_for_password_reset">We need your email to send your instructions for password reset.</string>
+    <string name="we_have_sent_you_reset_mail">We have sent you instructions to reset your password!</string>
+    <string name="failed_to_send_mail">Failed to send mail. Please try again later.</string>
+    <string name="are_you_sure_you_want_to_delete_account">Are you sure you want to delete your account?</string>
+    <string name="your_account_is_deleted">Your account is deleted.</string>
+    <string name="failed_to_delete_your_account">Failed to delete your account</string>
+    <string name="current_password">Current Password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="re_enter_new_password">Re-enter new password</string>
 </resources>
