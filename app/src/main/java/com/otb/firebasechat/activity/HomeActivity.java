@@ -40,8 +40,12 @@ public class HomeActivity extends AppCompatActivity {
             public boolean onMenuItemClick(MenuItem item) {
                 if (CommonUtils.isNetworkAvailable(context)) {
                     switch (item.getItemId()) {
+                        case R.id.action_update_profile:
+                            Intent intent = new Intent(context, ProfileActivity.class);
+                            startActivity(intent);
+                            break;
                         case R.id.action_change_password:
-                            Intent intent = new Intent(context, ChangePasswordActivity.class);
+                            intent = new Intent(context, ChangePasswordActivity.class);
                             startActivity(intent);
                             break;
                         case R.id.action_delete_account:

@@ -6,6 +6,7 @@ package com.otb.firebasechat.constants;
  */
 
 public interface AppConstants {
+    String FILESTACK_API_KEY = "AqWmnwWXyTTSYJINHzGrPz";
     String EMPTY = "";
     String SPACE = " ";
     String COLON = ":";

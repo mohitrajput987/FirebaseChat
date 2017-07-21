@@ -10,10 +10,10 @@
     <string name="re_enter_email">Re-enter email</string>
     <string name="this_email_is_not_same">This email is not same as above</string>
     <string name="first_name">Name</string>
-    <string name="enter_your_first_name">Enter your name</string>
+    <string name="enter_your_name">Enter your name</string>
     <string name="last_name">Last name</string>
     <string name="enter_your_last_name">Enter your last name</string>
-    <string name="enter_valid_first_name">Enter a valid first name</string>
+    <string name="enter_valid_name">Enter a valid name</string>
     <string name="enter_valid_last_name">Enter a valid last name</string>
     <string name="mobile">Mobile</string>
     <string name="enter_your_mobile_number">Enter your mobile number</string>
@@ -57,6 +57,7 @@
     <string name="enter_caree_first_name">Enter caree\'s first name</string>
     <string name="enter_caree_last_name">Enter caree\'s last name</string>
     <string name="ok">OK</string>
+    <string name="update_profile">Update Profile</string>
     <string name="change_password">Change Password</string>
     <string name="delete_account">Delete Account</string>
     <string name="logout">Logout</string>
@@ -95,4 +96,6 @@
     <string name="current_password">Current Password</string>
     <string name="enter_new_password">Enter new password</string>
     <string name="re_enter_new_password">Re-enter new password</string>
+    <string name="updating_profile">Updating profile</string>
+    <string name="profile_updated_successfully">Your profile has been updated successfully</string>
 </resources>

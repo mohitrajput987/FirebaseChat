@@ -2,6 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/action_update_profile"
+        android:title="@string/update_profile"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/action_change_password"
         android:title="@string/change_password"
         app:showAsAction="never" />
